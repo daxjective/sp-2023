@@ -8,12 +8,38 @@
     <title>2023, BucketList</title>
     <style> 
         .title {
-            color: red;
+            color: white;
+            background-color: tomato;
+            font-size: 24px;
+            padding: 4px 8px;
+            border-radius: 8px;
         }
+        .bg{
+            width: 360px;
+            background-image : url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+        .msg {
+            font-weight: bold;
+        }
+        .bucket{
+            width: 160px;
+            height: 160px;
+        }
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+        background-position: center;
+        }
+
     </style>
 </head>
 
-<body>
+<body class="bg">
     <h1 class="title">2023 신년 계획</h1>
     <p calss = "msg">올해는 자기관리에 신경쓰자!</p>
     <!-- shift alt f : 정렬 -->
